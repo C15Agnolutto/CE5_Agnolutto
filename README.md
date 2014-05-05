@@ -30,6 +30,7 @@ All I-Type's follow the format:
 | imm  | 44  | 0000000000101100 |
 
 Concatenated: 0010 0000 0001 0000 0000 0000 0010 1100
+
 Hexdemical: 0x2010002C
 
 #####Line 2 reads:
@@ -42,6 +43,7 @@ Hexdemical: 0x2010002C
 | imm  | -37  | 1111111111011011 |
 
 Concatenated: 0010 0000 0001 0001 1111 1111 1101 1011
+
 Hexdemical: 0x2011FFDB
 
 #####Line 4 reads:
@@ -54,7 +56,10 @@ Hexdemical: 0x2011FFDB
 | imm  | 54  | 0000000000110110 |
 
 Concatenated: 1010 1100 0001 0010 0000 0000 0011 0110
+
 Hexdemical: 0xAC120036
+
+
 
 
 
@@ -78,6 +83,7 @@ All R-Type's follow the format:
 |function|32 | 100000|
 
 Concatenated: 0000 0010 0001 0001 1001 0000 0010 0000
+
 Hexdemical: 0x02119020
 
 

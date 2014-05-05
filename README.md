@@ -11,6 +11,8 @@ Line 4: sw $s2, 0(x)54($0) #stores value of $s2 into hexadecimal memory address 
 
 ### Task 2
 
+#### I-Type
+
 Lines 1, 2, and 4 are all I-Type instructions.
 
 All I-Type's follow the format:
@@ -59,9 +61,7 @@ Concatenated: 1010 1100 0001 0010 0000 0000 0011 0110
 
 Hexdemical: 0xAC120036
 
-
-
-
+#### R-Type
 
 Lines 3 is an R-Type instruction.
 

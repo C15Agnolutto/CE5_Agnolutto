@@ -91,7 +91,8 @@ Hexdemical: 0x02119020
 ###Task 3
 Had to add the ori instruction to the MIPS single-cycle processor. It asks for modifications to the schematic but after some thought and discussion with Capt Trimble, I came to the conclusion that because the ALU already can do the or instruction and can handle immediate scenerios, I did not have to make any changes to the schematic. I did make changes to the main decoder. Shown in the image below on line 196 I added the case for ORI based on its opcode. The next modification was to be modify the alu decoder. Because "10" is reserved for R-type functions, I decided to utilize the "11" ALUop. In the second image below you can see on line 217 where I added this. The alucontrol is assigned the value "001" so that in the alu architecture, it performs the or instruction. I  believe this is sufficient to add the ori instruction. 
 
-I tested the values 
+I tested the lines:
+
 
 
 

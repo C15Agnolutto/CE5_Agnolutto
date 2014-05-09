@@ -1,5 +1,8 @@
 CE5_Agnolutto
 =============
+***I lost a lot of commits because I had to delete and readd my repository
+
+
 ### Task 1
 Line 1: addi $s0, $0, 44 #iniitialized register at $s0 and assigned the value 44 to it.
 
@@ -109,6 +112,7 @@ This line is: ori $s3, $s2, x8000.
 ![part2] (https://raw.githubusercontent.com/C15Agnolutto/CE5_Agnolutto/master/new_ori_tb2.PNG)
 
 
+The waveform above shows the values being or'ed together, or at least so I think. Github and gitbash caused me a lot of headache on this CE for some reason. Had to delete and readd stuff multiple times. Thankful I'm done. Not 100% sure its right, but I gave it my best shot. 
 
 
 

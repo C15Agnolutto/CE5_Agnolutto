@@ -59,7 +59,7 @@ Hexdemical: 0x2011FFDB
 
 Concatenated: 1010 1100 0001 0010 0000 0000 0101 0100
 
-Hexdemical: 0xAC120036
+Hexdemical: 0xAC120054
 
 #### R-Type
 

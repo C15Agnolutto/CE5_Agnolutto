@@ -105,7 +105,10 @@ Had to add the ori instruction to the MIPS single-cycle processor. It asks for m
 
 I added the line: X"36538000" before the original line 4 in my testbench. 
 
+![oritb] (https://raw.githubusercontent.com/C15Agnolutto/CE5_Agnolutto/master/ori_tb_code.PNG)
+
 This line is: ori $s3, $s2, x8000. 
+
 
 ![part1] (https://raw.githubusercontent.com/C15Agnolutto/CE5_Agnolutto/master/new_ori_tb.PNG)
 

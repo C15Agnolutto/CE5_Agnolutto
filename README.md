@@ -100,7 +100,13 @@ Had to add the ori instruction to the MIPS single-cycle processor. It asks for m
 
 ![oricontrols] (https://raw.githubusercontent.com/C15Agnolutto/CE5_Agnolutto/master/ori_controls.PNG)
 
-I tested the lines:
+I added the line: X"36538000" before the original line 4 in my testbench. 
+
+This line is: ori $s3, $s2, x8000. 
+
+![part1] (https://raw.githubusercontent.com/C15Agnolutto/CE5_Agnolutto/master/new_ori_tb.PNG)
+
+![part2] (https://raw.githubusercontent.com/C15Agnolutto/CE5_Agnolutto/master/new_ori_tb2.PNG)
 
 
 
